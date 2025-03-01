@@ -1,0 +1,46 @@
+[
+{
+  "directory": "/home/sasha2k62024/GitHub/NeovimGUIManager",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++23", "-IHeaderFiles", "-IHeaderFiles/rlImGui", "-o", "build/.objs/NeovimGUIManager/linux/x86_64/debug/SourceFiles/NeovimGUIManager/window.cpp.o", "SourceFiles/NeovimGUIManager/window.cpp"],
+  "file": "SourceFiles/NeovimGUIManager/window.cpp"
+},
+{
+  "directory": "/home/sasha2k62024/GitHub/NeovimGUIManager",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++23", "-IHeaderFiles", "-IHeaderFiles/rlImGui", "-o", "build/.objs/NeovimGUIManager/linux/x86_64/debug/SourceFiles/NeovimGUIManager/main.cpp.o", "SourceFiles/NeovimGUIManager/main.cpp"],
+  "file": "SourceFiles/NeovimGUIManager/main.cpp"
+},
+{
+  "directory": "/home/sasha2k62024/GitHub/NeovimGUIManager",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++23", "-IHeaderFiles", "-IHeaderFiles/rlImGui", "-o", "build/.objs/NeovimGUIManager/linux/x86_64/debug/SourceFiles/rlImGui/rlImGui.cpp.o", "SourceFiles/rlImGui/rlImGui.cpp"],
+  "file": "SourceFiles/rlImGui/rlImGui.cpp"
+},
+{
+  "directory": "/home/sasha2k62024/GitHub/NeovimGUIManager",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++23", "-IHeaderFiles", "-IHeaderFiles/rlImGui", "-o", "build/.objs/NeovimGUIManager/linux/x86_64/debug/SourceFiles/imgui/imgui.cpp.o", "SourceFiles/imgui/imgui.cpp"],
+  "file": "SourceFiles/imgui/imgui.cpp"
+},
+{
+  "directory": "/home/sasha2k62024/GitHub/NeovimGUIManager",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++23", "-IHeaderFiles", "-IHeaderFiles/rlImGui", "-o", "build/.objs/NeovimGUIManager/linux/x86_64/debug/SourceFiles/imgui/imgui_widgets.cpp.o", "SourceFiles/imgui/imgui_widgets.cpp"],
+  "file": "SourceFiles/imgui/imgui_widgets.cpp"
+},
+{
+  "directory": "/home/sasha2k62024/GitHub/NeovimGUIManager",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++23", "-IHeaderFiles", "-IHeaderFiles/rlImGui", "-o", "build/.objs/NeovimGUIManager/linux/x86_64/debug/SourceFiles/imgui/imgui_tables.cpp.o", "SourceFiles/imgui/imgui_tables.cpp"],
+  "file": "SourceFiles/imgui/imgui_tables.cpp"
+},
+{
+  "directory": "/home/sasha2k62024/GitHub/NeovimGUIManager",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++23", "-IHeaderFiles", "-IHeaderFiles/rlImGui", "-o", "build/.objs/NeovimGUIManager/linux/x86_64/debug/SourceFiles/imgui/imgui_draw.cpp.o", "SourceFiles/imgui/imgui_draw.cpp"],
+  "file": "SourceFiles/imgui/imgui_draw.cpp"
+},
+{
+  "directory": "/home/sasha2k62024/GitHub/NeovimGUIManager",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++23", "-IHeaderFiles", "-IHeaderFiles/rlImGui", "-o", "build/.objs/NeovimGUIManager/linux/x86_64/debug/SourceFiles/imgui/imgui_demo.cpp.o", "SourceFiles/imgui/imgui_demo.cpp"],
+  "file": "SourceFiles/imgui/imgui_demo.cpp"
+},
+{
+  "directory": "/home/sasha2k62024/GitHub/NeovimGUIManager",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++23", "-IHeaderFiles", "-IHeaderFiles/rlImGui", "-o", "build/.objs/NeovimGUIManager/linux/x86_64/debug/SourceFiles/imgui/misc/imgui_stdlib.cpp.o", "SourceFiles/imgui/misc/imgui_stdlib.cpp"],
+  "file": "SourceFiles/imgui/misc/imgui_stdlib.cpp"
+}]
