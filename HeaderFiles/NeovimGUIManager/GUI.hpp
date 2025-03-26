@@ -4,9 +4,8 @@
 #define NEOVIMGUIMANAGER_GUI_HPP
 
 namespace NeovimGUIManager {
-	class GUI {
-	  public:
-		const static void init(void), show(void), clean(void);
+	namespace GUI {
+		const void init(void), show(void), clean(void);
 	};
 } // namespace NeovimGUIManager
 

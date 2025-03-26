@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/sasha2k62024/GitHub/NeovimGUIManager'
+let g:netrw_dirhist_4='/home/sasha2k62024/GitHub/NeovimGUIManager/IDE/Neovim'
+let g:netrw_dirhist_3='/home/sasha2k62024/GitHub/NeovimGUIManager'
+let g:netrw_dirhist_2='/home/sasha2k62024/GitHub/NeovimGUIManager/IDE/Neovim/.config/nvim'
+let g:netrw_dirhist_1='/home/sasha2k62024/GitHub/NeovimGUIManager/IDE/Neovim/.config'
+let g:netrw_dirhist_0='/home/sasha2k62024/GitHub/NeovimGUIManager/IDE/Neovim'
+let g:netrw_dirhist_9='/home/sasha2k62024/GitHub/NeovimGUIManager/IDE'
+let g:netrw_dirhist_8='/home/sasha2k62024/GitHub/NeovimGUIManager'
+let g:netrw_dirhist_7='/home/sasha2k62024/GitHub/NeovimGUIManager/IDE/Neovim/.config/nvim'
+let g:netrw_dirhist_6='/home/sasha2k62024/GitHub/NeovimGUIManager/IDE/Neovim/.config'

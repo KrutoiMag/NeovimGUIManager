@@ -1,7 +1,9 @@
 #include "../../HeaderFiles/NeovimGUIManager/GUI.hpp"
-#include "../../HeaderFiles/NeovimGUIManager/neovim.hpp"
+#include "../../HeaderFiles/NeovimGUIManager/GUI/PluginManager.hpp"
+#include "../../HeaderFiles/NeovimGUIManager/GUI/installer.hpp"
 #include "../../HeaderFiles/imgui/imgui.h"
 #include "../../HeaderFiles/rlImGui/rlImGui.h"
+#include <cstddef>
 
 const void NeovimGUIManager::GUI::init(void) {
 	rlImGuiSetup(true);
@@ -12,18 +14,23 @@ const void NeovimGUIManager::GUI::init(void) {
 const void NeovimGUIManager::GUI::show(void) {
 	rlImGuiBegin();
 	{
-		if (ImGui::Begin("NeovimGUIManager", NULL,
-						 ImGuiWindowFlags_AlwaysAutoResize)) {
-			ImGui::Text("Status: %s",
-						neovim::installed() ? "Installed" : "Not installed");
-			if (!neovim::installed()) {
-				if (ImGui::Button("Install Neovim")) {
-					neovim::install();
+		ImGui::SetNextWindowPos(ImVec2(0, 0));
+		ImGui::SetNextWindowSize(
+			ImVec2(ImGui::GetIO().DisplaySize.x, ImGui::GetIO().DisplaySize.y));
+		if (ImGui::Begin("##NeovimGUIManager", NULL,
+						 ImGuiWindowFlags_NoResize |
+							 ImGuiWindowFlags_NoTitleBar |
+							 ImGuiWindowFlags_NoCollapse)) {
+			if (ImGui::BeginTabBar("Tabs")) {
+				if (ImGui::BeginTabItem("Installer")) {
+					GUI::installer::show();
+					ImGui::EndTabItem();
 				}
-			} else {
-				if (ImGui::Button("Uninstall Neovim")) {
-					neovim::uninstall();
+				if (ImGui::BeginTabItem("Plugin manager")) {
+					GUI::PluginManager::show();
+					ImGui::EndTabItem();
 				}
+				ImGui::EndTabBar();
 			}
 			ImGui::End();
 		}

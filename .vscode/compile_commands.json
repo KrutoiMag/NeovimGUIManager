@@ -11,6 +11,11 @@
 },
 {
   "directory": "/home/sasha2k62024/GitHub/NeovimGUIManager",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++23", "-IHeaderFiles", "-IHeaderFiles/rlImGui", "-o", "build/.objs/NeovimGUIManager/linux/x86_64/debug/SourceFiles/NeovimGUIManager/GUI.cpp.o", "SourceFiles/NeovimGUIManager/GUI.cpp"],
+  "file": "SourceFiles/NeovimGUIManager/GUI.cpp"
+},
+{
+  "directory": "/home/sasha2k62024/GitHub/NeovimGUIManager",
   "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++23", "-IHeaderFiles", "-IHeaderFiles/rlImGui", "-o", "build/.objs/NeovimGUIManager/linux/x86_64/debug/SourceFiles/rlImGui/rlImGui.cpp.o", "SourceFiles/rlImGui/rlImGui.cpp"],
   "file": "SourceFiles/rlImGui/rlImGui.cpp"
 },
@@ -43,4 +48,9 @@
   "directory": "/home/sasha2k62024/GitHub/NeovimGUIManager",
   "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++23", "-IHeaderFiles", "-IHeaderFiles/rlImGui", "-o", "build/.objs/NeovimGUIManager/linux/x86_64/debug/SourceFiles/imgui/misc/imgui_stdlib.cpp.o", "SourceFiles/imgui/misc/imgui_stdlib.cpp"],
   "file": "SourceFiles/imgui/misc/imgui_stdlib.cpp"
+},
+{
+  "directory": "/home/sasha2k62024/GitHub/NeovimGUIManager",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++23", "-IHeaderFiles", "-IHeaderFiles/rlImGui", "-o", "build/.objs/NeovimGUIManager/linux/x86_64/debug/SourceFiles/NeovimGUIManager/GUI/installer.cpp.o", "SourceFiles/NeovimGUIManager/GUI/installer.cpp"],
+  "file": "SourceFiles/NeovimGUIManager/GUI/installer.cpp"
 }]
